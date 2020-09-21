@@ -138,7 +138,7 @@
 	<!-- Web Page Title -->
 	<!-- TemplateBeginEditable name="main_heading" -->
     <div class="container-fluid">
-		<h1>Insert main heading here</h1>
+		<h1 id="main_heading">Insert main heading here</h1>
 	  	<div class="row">
 
 		  <div class="col-12 col-sm-4 col-md-3 col-lg-2">

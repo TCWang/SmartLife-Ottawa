@@ -137,7 +137,7 @@
 
 	<!-- Web Page Title -->
 	<!-- TemplateBeginEditable name="main_heading" -->
-	<h2 id="main_heading"> Insert main heading here </h2>
+	<h1 id="main_heading"> Insert main heading here </h1>
 	<!-- TemplateEndEditable -->
 	  
 	<!-- Vue實例的掛載點 -->
