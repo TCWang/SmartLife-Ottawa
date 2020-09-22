@@ -1,143 +1,145 @@
 <!DOCTYPE html>
-<html lang="en"><!-- InstanceBegin template="/Templates/SLO-01-Template02.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang="en">
+<!-- InstanceBegin template="/Templates/SLO-01-Template02.dwt" codeOutsideHTMLIsLocked="false" -->
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <!-- Bootstrap 4 CSS 的 CDN -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <!-- Fontawesom 的 CDN -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
-    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-  <!-- Google Icons CDN  -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<!-- Bootstrap 4 CSS 的 CDN -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+		integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<!-- Fontawesom 的 CDN -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+		integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<!-- Google Icons CDN  -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
-  <!-- My CSS file -->
-  <link rel="stylesheet" href="css/mycss.css">
-  <!-- InstanceBeginEditable name="doctitle" -->
-  <title>Add Title here</title>
-  <meta name="description" content="AiCity Community WebSite 2019">
-  <!-- InstanceEndEditable -->
+	<!-- My CSS file -->
+	<link rel="stylesheet" href="css/mycss.css">
+	<!-- InstanceBeginEditable name="doctitle" -->
+	<title>Add Title here</title>
+	<meta name="description" content="AiCity Community WebSite 2019">
+	<!-- InstanceEndEditable -->
 
-<!-- InstanceBeginEditable name="head" -->
-<!-- InstanceEndEditable -->
+	<!-- InstanceBeginEditable name="head" -->
+	<!-- InstanceEndEditable -->
 </head>
 
 <body>
-  <!-- Vue實例的掛載點 -->
-  <div id='app'>
+	<!-- Vue實例的掛載點 -->
+	<div id='app'>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <a class="navbar-brand" href="#">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+			<a class="navbar-brand" href="#">
 
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
 
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              <i class="fas fa-user">用戶登入</i>
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="SLO-110-MyInformation.html">个人资讯</a>
-              <a class="dropdown-item" href="SLO-120-SignIn.html">登入注册</a>
-              <a class="dropdown-item" href="SLO-130-Message.html">用戶留言</a>
-            </div>
-          </li>
-		  <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              <i class="fas fa-info">地区资讯</i>
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="SLO-210-Location.html">地理位置</a>
-              <a class="dropdown-item" href="SLO-220-AreaInformation.html">地区资讯</a>
-              <a class="dropdown-item" href="SLO-230-Transportation.html">交通资讯</a>
-              <a class="dropdown-item" href="SLO-240-Language.html">法语学习</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              <i class="fas fa-shopping-cart">生活采购</i>
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-			  <a class="dropdown-item" href="SLO-310-HouseBuyingRenting.html">购屋租屋</a>
-              <a class="dropdown-item" href="SLO-320-HomeLife.html">居家生活</a>
-              <a class="dropdown-item" href="SLO-330-ElectronicProduct.html">电子产品</a>
-              <a class="dropdown-item" href="SLO-340-InternetCommunication.html">网路通讯</a>
-            </div
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              <i class="fas fa-utensils">美食飨宴</i>
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="SLO-410-Cookware.html">料理设备</a>
-              <a class="dropdown-item" href="SLO-420-Restaurant.html">特色餐厅</a>
-              <a class="dropdown-item" href="SLO-430-Recipe.html">食谱厨艺</a>
-              <a class="dropdown-item" href="SLO-440-Coffee.html">咖啡冲泡</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              <i class="fas fa-running">健康娱乐</i>
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="SLO-510-Travel.html">旅游休闲</a>
-              <a class="dropdown-item" href="SLO-520-Hiking.html">登山步道</a>
-              <a class="dropdown-item" href="SLO-530-Hospital.html">医疗保健</a>
-              <a class="dropdown-item" href="SLO-540-Entertainment.html">娱乐嗜好</a>
-            </div>
-          </li>
-		  <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              <i class="fas fa-money-check-alt">投资理财</i>
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="SLO-610-Investment.html">投資資訊</a>
-              <a class="dropdown-item" href="SLO-620-Retirement.html">退休理財</a>
-              <a class="dropdown-item" href="SLO-630-Stock.html">股票资讯</a>
-              <a class="dropdown-item" href="SLO-640-Fund.html">基金资讯</a>
-            </div>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-      </div>
-    </nav>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<i class="fas fa-user">用戶登入</i>
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="SLO-110-MyInformation.html">个人资讯</a>
+							<a class="dropdown-item" href="SLO-120-SignIn.html">登入注册</a>
+							<a class="dropdown-item" href="SLO-130-Message.html">用戶留言</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<i class="fas fa-info">地区资讯</i>
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="SLO-210-Location.html">地理位置</a>
+							<a class="dropdown-item" href="SLO-220-AreaInformation.html">地区资讯</a>
+							<a class="dropdown-item" href="SLO-230-Transportation.html">交通资讯</a>
+							<a class="dropdown-item" href="SLO-240-Language.html">法语学习</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<i class="fas fa-shopping-cart">生活采购</i>
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="SLO-310-HouseBuyingRenting.html">购屋租屋</a>
+							<a class="dropdown-item" href="SLO-320-HomeLife.html">居家生活</a>
+							<a class="dropdown-item" href="SLO-330-ElectronicProduct.html">电子产品</a>
+							<a class="dropdown-item" href="SLO-340-InternetCommunication.html">网路通讯</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<i class="fas fa-utensils">美食飨宴</i>
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="SLO-410-Cookware.html">料理设备</a>
+							<a class="dropdown-item" href="SLO-420-Restaurant.html">特色餐厅</a>
+							<a class="dropdown-item" href="SLO-430-Recipe.html">食谱厨艺</a>
+							<a class="dropdown-item" href="SLO-440-Coffee.html">咖啡冲泡</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<i class="fas fa-running">健康娱乐</i>
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="SLO-510-Travel.html">旅游休闲</a>
+							<a class="dropdown-item" href="SLO-520-Hiking.html">登山步道</a>
+							<a class="dropdown-item" href="SLO-530-Hospital.html">医疗保健</a>
+							<a class="dropdown-item" href="SLO-540-Entertainment.html">娱乐嗜好</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<i class="fas fa-money-check-alt">投资理财</i>
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="SLO-610-Investment.html">投資資訊</a>
+							<a class="dropdown-item" href="SLO-620-Retirement.html">退休理財</a>
+							<a class="dropdown-item" href="SLO-630-Stock.html">股票资讯</a>
+							<a class="dropdown-item" href="SLO-640-Fund.html">基金资讯</a>
+						</div>
+					</li>
+				</ul>
+				<form class="form-inline my-2 my-lg-0">
+					<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+				</form>
+			</div>
+		</nav>
 
-    <!-- Jumbotron-->
+		<!-- Jumbotron-->
 
-    <!-- InstanceBeginEditable name="jumbotron description " -->
-	<div class="jumbotron jumbotron-fluid jumbotron-bg2 d-flex align-items-end">
-        <div class="container">
-            <div class="bg-lighter p-1" style="width:300px">
-              <h4 class="text-white" >加拿大首都地區</h4>
-              <p class="lead text-white">購房資料匯總</p>
-        	</div>
+		<!-- InstanceBeginEditable name="jumbotron description " -->
+		<div class="jumbotron jumbotron-fluid jumbotron-bg2 d-flex align-items-end">
+			<div class="container">
+				<div class="bg-lighter p-1" style="width:300px">
+					<h4 class="text-white">加拿大首都地區</h4>
+					<p class="lead text-white">購房資料匯總</p>
+				</div>
+			</div>
 		</div>
+		<!-- InstanceEndEditable -->
 	</div>
-    <!-- InstanceEndEditable --> </div>
 
 
 	<!-- Web Page Title -->
 	<!-- InstanceBeginEditable name="main_heading" -->
-    <div id="app" class="container-fluid ">
+	<div class="container-fluid ">
 		<div class="row">
 			<h1 id="main_heading">加拿大首都地區購屋資訊</h1>
 		</div>
@@ -147,103 +149,199 @@
 					<a href="#Menu-B1" class="list-group-item list-group-item-action active" data-toggle="list">購屋網站</a>
 					<a href="#Menu-B2" class="list-group-item list-group-item-action" data-toggle="list">Aylmer 艾尔默</a>
 					<a href="#Menu-B3" class="list-group-item list-group-item-action" data-toggle="list">Plateau 高原地</a>
-					<a href="#Menu-B4" class="list-group-item list-group-item-action" data-toggle="list">Gatineau 加蒂诺</a>
+					<a href="#Menu-B4" class="list-group-item list-group-item-action" data-toggle="list">Gatineau
+						加蒂诺</a>
 
 				</div>
 			</div>
-   			<div class="col-12 col-sm-8 col-md-9 col-lg-10  border border-secondary rounded">
-            	<div class="tab-content">
+			<div class="col-12 col-sm-8 col-md-9 col-lg-10  border border-secondary rounded">
+				<div class="tab-content">
 					<div class="tab-pane active" id="Menu-B1" role="tabpanel">
 						<article>
-						<h3>購屋網站</h3>
-						<p>
+							<h3>購屋網站</h3>
+							<p>
 							<div class="row">
 								<div class="col-md-4">
-								<section>
-									<h5>購屋搜尋網</h5>
-									<ul>
-										<li><a href="https://www.realtor.ca/">REALTOR.ca</a> </li>
-										<li><a href="https://duproprio.com/en">duProprio</a> </li>
-										<li><a href="https://www.kijiji.ca/">Kijiji</a> </li>
-										<li><a href="https://www.centris.ca/en">Centris.ca</a> </li>
-										<li><a href="https://www.buzzbuzzhome.com/us">BuzzBuzzHome</a> </li>
-										<li><a href="https://www.royallepage.ca/en/">POYAL LePAGE</a> </li>
-										<li><a href="https://www.montrealguidecondo.ca/en/">Montreal Guide Condo</a> </li>
-										<li><a href="https://www.point2homes.com/CA">Point2</a> </li>
-									</ul>
-									<h5>資產管理公司</h5>
-									<ul>
-										<li><a href="https://www.agrasoyrealty.com/services/property-management">Agrasoy Realty</a> </li>
-									</ul>
+									<section>
+										<h5>購屋搜尋網</h5>
+										<ul>
+											<li><a href="https://www.realtor.ca/">REALTOR.ca</a> </li>
+											<li><a href="https://duproprio.com/en">duProprio</a> </li>
+											<li><a href="https://www.kijiji.ca/">Kijiji</a> </li>
+											<li><a href="https://www.centris.ca/en">Centris.ca</a> </li>
+											<li><a href="https://www.buzzbuzzhome.com/us">BuzzBuzzHome</a> </li>
+											<li><a href="https://www.royallepage.ca/en/">POYAL LePAGE</a> </li>
+											<li><a href="https://www.montrealguidecondo.ca/en/">Montreal Guide Condo</a>
+											</li>
+											<li><a href="https://www.point2homes.com/CA">Point2</a> </li>
+										</ul>
+										<h5>資產管理公司</h5>
+										<ul>
+											<li><a href="https://www.agrasoyrealty.com/services/property-management">Agrasoy
+													Realty</a> </li>
+										</ul>
 
-								</section>
+									</section>
 								</div>
 								<div class="col-md-8">
-								<section>
-									<h5>面積換算表</h5>
-									<img src="fig/SLO-3101-sqft.png" class="img-fluid" style="width:450px">
-								</section>
+									<section>
+										<h5>面積換算表</h5>
+										<img src="fig/SLO-3101-sqft.png" class="img-fluid" style="width:450px">
+									</section>
 								</div>
 							</div>
-						
-						</p>
+
+							</p>
 						</article>
 					</div>
 					<div class="tab-pane" id="Menu-B2" role="tabpanel">
 						<article>
-						<h3>Aylmer 艾尔默</h3>
-						<p>
-						
-						</p>
+							<h3>Aylmer 艾尔默</h3>
+
+								<!-- Vue實例的掛載點 -->
+							<div class="container-fluid">
+								<div class="row">
+									<div class="container-fluid" id="app">
+										<div class="alert alert-info" role="alert">
+
+											<div class="row">
+												<div class="col">
+													<div class="form-group">
+														<select class="form-control" v-model='section'
+															id="exampleFormControlSelect1">
+															<option v-for="section in sections">{{ section }}</option>
+														</select>
+													</div>
+												</div>
+												<div class="col-6">
+													<h5 class="text-center">{{ section | formatted}}</h5>
+												</div>
+
+											</div>
+										</div>
+										<p id="color-highlight">注意：點擊下面圖片,進入售屋網站</p>
+										<div class="row" v-for="posts in results">
+											<div class="col-sm-12 col-md-6 col-lg-4 col-xl-3" v-for="post in posts">
+												<div class="card">
+													<div class="card-header">
+														{{ post.category }}
+													</div>
+													<div class="card-body">
+														<p class="card-text">
+															<a v-bind:href="post.website">
+																<img v-bind:src="post.figure" class="img-fluid"
+																	style="width:320px">
+															</a>
+														</p>
+														<dl>
+															<dd>CAD$ {{post.price}}</dd>
+															<dd>Type: {{post.type}}</dd>
+															<dd>Address: {{post.address}}</dd>
+															<dd>Bedrooms: {{post.bedrooms}}</dd>
+															<dd>Bathrooms: {{post.bathrooms}}</dd>
+															<dd>Storeys: {{post.storeys}} </dd>
+															<dd>Living Size: {{post.size}} SF </dd>
+															<dd>Lot: {{post.lot}} SF </dd>
+														</dl>
+
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
 						</article>
 					</div>
-                    <div class="tab-pane" id="Menu-B3" role="tabpanel">
-                    <!-- Menu B2 -->
-                    	<h3>Plateau 高原地</h3>
+					<div class="tab-pane" id="Menu-B3" role="tabpanel">
+						<!-- Menu B2 -->
+						<h3>Plateau 高原地</h3>
 
 
 					</div>
-                   	<div class="tab-pane" id="Menu-B4" role="tabpanel">
-                   	<!-- Menu B4 -->
-                    	<h3>Gatineau 加蒂诺</h3>
-						
-						
+					<div class="tab-pane" id="Menu-B4" role="tabpanel">
+						<!-- Menu B4 -->
+						<h3>Gatineau 加蒂诺</h3>
+
+
 					</div>
 
-              </div>
-	
-            </div>
-        </div>
- 	</div>
-    <!-- InstanceEndEditable -->
-	
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<!-- InstanceEndEditable -->
+
 	<footer id="main_footer">
 		<p>
-				Update footer here  &copy; TCW Smart Lift
+			Update footer here &copy; TCW Smart Lift
 		</p>
 
 	</footer>
-	
-	<!-- Vue 的 CDN -->
-    <script src="https://unpkg.com/vue/dist/vue.js"></script>
 
-    <!-- Bootstrap 4 JavaScript 的 CDN -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-      crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-      crossorigin="anonymous"></script>
-    <!-- Axios 的 CDN -->
-<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <!-- InstanceBeginEditable name="Vue Prorgram" -->
-    <div>
-      <!-- Vue實例的程式碼 -->
-    </div>
-    <!-- InstanceEndEditable -->
+	<!-- Vue 的 CDN -->
+	<script src="https://unpkg.com/vue/dist/vue.js"></script>
+
+	<!-- Bootstrap 4 JavaScript 的 CDN -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+		integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+		integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+		crossorigin="anonymous"></script>
+	<!-- Axios 的 CDN -->
+	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+	<!-- InstanceBeginEditable name="Vue Prorgram" -->
+	<div>
+		<!-- Vue實例的程式碼 -->
+		<script>
+			const posts = []
+			const SECTIONS_TW = "Aylmer, Hull, Gatineau"
+			new Vue({
+				el: '#app',
+				data: {
+					posts,
+					// results: [],
+					sections: SECTIONS_TW.split(', '),
+					section: 'Aylmer'
+				},
+				filter: {
+					formatted(value) {
+						return ' 以下是 ${value} 類別的貼文 '
+					}
+				},
+
+				computed: {
+					results() {
+						let posts = this.posts
+							.slice()
+							.filter(post => post.category === this.section)
+						let i, j, chunkedArray = [], chunk = 40;
+						for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
+							chunkedArray[j] = posts.slice(i, i + chunk);
+						}
+						return chunkedArray
+					}
+				},
+
+				mounted() {
+					axios.get('file/SLO-3181-OttawaHouse.json').then((response) => {
+						this.posts = response.data;
+						this.getPostsByCategory(this.section)
+					}).catch(error => { console.log(error); });
+				},
+
+			});
+		</script>
+	</div>
+	<!-- InstanceEndEditable -->
 </body>
 
-<!-- InstanceEnd --></html>
+<!-- InstanceEnd -->
+
+</html>
