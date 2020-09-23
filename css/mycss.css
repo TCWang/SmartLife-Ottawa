@@ -161,7 +161,19 @@ div.fixed {
     line-height: 1.42857;
 }
 .jumbotron-bg2 {
+	background-image: url("../fig/SLO-2101-OttawaBanner-02.jpg");
+	background-size: cover;
+	background-position: center top;
+	min-height: 400px
+}
+.jumbotron-bg3 {
 	background-image: url("../fig/SLO-2101-OttawaBanner-03.jpg");
+	background-size: cover;
+	background-position: center top;
+	min-height: 400px
+}
+.jumbotron-bg4 {
+	background-image: url("../fig/SLO-2101-OttawaBanner-04.jpg");
 	background-size: cover;
 	background-position: center top;
 	min-height: 400px

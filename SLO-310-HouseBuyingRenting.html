@@ -20,7 +20,7 @@
 	<link rel="stylesheet" href="css/mycss.css">
 	<!-- InstanceBeginEditable name="doctitle" -->
 	<title>Add Title here</title>
-	<meta name="description" content="AiCity Community WebSite 2019">
+	<meta name="SmartLife-Ottawa" content="Smart Life in Ottawa">
 	<!-- InstanceEndEditable -->
 
 	<!-- InstanceBeginEditable name="head" -->
@@ -29,7 +29,7 @@
 
 <body>
 	<!-- Vue實例的掛載點 -->
-	<div >
+	<div>
 
 		<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
 			<a class="navbar-brand" href="#">
@@ -125,7 +125,7 @@
 		<!-- Jumbotron-->
 
 		<!-- InstanceBeginEditable name="jumbotron description " -->
-		<div class="jumbotron jumbotron-fluid jumbotron-bg2 d-flex align-items-end">
+		<div class="jumbotron jumbotron-fluid jumbotron-bg3 d-flex align-items-end">
 			<div class="container">
 				<div class="bg-lighter p-1" style="width:300px">
 					<h4 class="text-white">加拿大首都地區</h4>
@@ -151,6 +151,7 @@
 					<a href="#Menu-B3" class="list-group-item list-group-item-action" data-toggle="list">全新建案</a>
 					<a href="#Menu-B4" class="list-group-item list-group-item-action" data-toggle="list">購屋網站</a>
 					<a href="#Menu-B5" class="list-group-item list-group-item-action" data-toggle="list">購屋流程</a>
+					<a href="#Menu-B6" class="list-group-item list-group-item-action" data-toggle="list">購屋資訊</a>
 				</div>
 			</div>
 			<div class="col-12 col-sm-8 col-md-9 col-lg-10  border border-secondary rounded">
@@ -159,7 +160,7 @@
 						<article>
 							<h3>目標選項：Gatineau 加蒂诺 地區</h3>
 
-								<!-- Vue實例的掛載點 -->
+							<!-- Vue實例的掛載點 -->
 							<div class="container-fluid">
 								<div class="row">
 									<div class="container-fluid">
@@ -197,7 +198,8 @@
 														<dl>
 															<dd>{{post.area}} - {{post.type}}</dd>
 															<dd>{{post.address}}</dd>
-															<dd>{{post.bedrooms}} Beds, {{post.bathrooms}} Bath, {{post.storeys}} Fl </dd>
+															<dd>{{post.bedrooms}} Beds, {{post.bathrooms}} Bath,
+																{{post.storeys}} Fl </dd>
 															<dd>Living Size: {{post.size}} Sqft</dd>
 															<dd>Lot Size: {{post.lot}} Sqft </dd>
 														</dl>
@@ -218,7 +220,7 @@
 						<!-- Menu B2 -->
 						<h3>目標選項列表</h3>
 						<div class="row mb-1">
-							
+
 							<table class="table table-striped table-sm table-hover" style="width:100%">
 								<thead style="background-color:lightblue">
 									<tr class="text-left">
@@ -258,30 +260,30 @@
 					<div class="tab-pane" id="Menu-B3" role="tabpanel">
 						<!-- Menu B4 -->
 						<h3>全新建案</h3>
-					  <section>
-						<h5>Brigil - Condos & Single Family</h5>
-						<p id="quote">
-							<a href="http://www.brigil.com/for-sale">Brigil - Gatineau</a>,
-							<a href="http://www.brigil.com/apogee-en">Apogee</a>, 
-							<a href="http://www.brigil.com/index-ch.php">新建案匯總</a>
-						
-						</p>
-						<h5>Zibi - Condos</h5>
-						<p id="quote">
-							<a href="https://www.zibi.ca/residential/">Kanaal Condo</a>
-						</p>
-						<h5>Le District Condos</h5>
-						<p id="quote">
-							<a href="https://ledistrictaylmer.com/">老人公寓</a>
-						</p>
-						<h5>Limbour</h5>
-						<p id="quote">
-							<a href="https://limbourconstructionplus.ca/">Limbour</a>
-						</p>
-						<h5>Agora</h5>
-						<p id="quote">
-						<a href="https://agora-plateau.com/fr">Agora</a>
-						</p>
+						<section>
+							<h5>Brigil - Condos & Single Family</h5>
+							<p id="quote">
+								<a href="http://www.brigil.com/for-sale">Brigil - Gatineau</a>,
+								<a href="http://www.brigil.com/apogee-en">Apogee</a>,
+								<a href="http://www.brigil.com/index-ch.php">新建案匯總</a>
+
+							</p>
+							<h5>Zibi - Condos</h5>
+							<p id="quote">
+								<a href="https://www.zibi.ca/residential/">Kanaal Condo</a>
+							</p>
+							<h5>Le District Condos</h5>
+							<p id="quote">
+								<a href="https://ledistrictaylmer.com/">老人公寓</a>
+							</p>
+							<h5>Limbour</h5>
+							<p id="quote">
+								<a href="https://limbourconstructionplus.ca/">Limbour</a>
+							</p>
+							<h5>Agora</h5>
+							<p id="quote">
+								<a href="https://agora-plateau.com/fr">Agora</a>
+							</p>
 						</section>
 
 					</div>
@@ -304,6 +306,10 @@
 											</li>
 											<li><a href="https://www.point2homes.com/CA">Point2</a> </li>
 										</ul>
+										<h5>中文房仲網</h5>
+										<ul>
+											<li><a href="http://homeinottawa.ca/">安居在渥京</a> </li>
+										</ul>
 										<h5>資產管理公司</h5>
 										<ul>
 											<li><a href="https://www.agrasoyrealty.com/services/property-management">Agrasoy
@@ -316,51 +322,53 @@
 									<section>
 										<h5>面積單位 與 換算</h5>
 										<ul>
-											<li>1 square meter, m<sup>2</sup> 平方英尺 = 10.764 square feet, ft<sup>2</sup> 平方公尺</li>
+											<li>1 square meter, m<sup>2</sup> 平方英尺 = 10.764 square feet, ft<sup>2</sup>
+												平方公尺</li>
 											<li>1 Ping 坪 (兩個塌塌米）= 35.584 ft<sup>2</sup> </li>
 											<li>1 Ping 坪 = 3.3058 m<sup>2</sup> </li>
-											<li>1 square feet, ft<sup>2</sup> 平方英尺 = 2.2957 x 10 <sup>-5</sup> acre 英畝 </li>
+											<li>1 square feet, ft<sup>2</sup> 平方英尺 = 2.2957 x 10 <sup>-5</sup> acre 英畝
+											</li>
 										</ul>
 
-											<table width="95%">
-												<tr>
-													<td>平方英尺</td>
-													<td>ft<sup>2</sup> </td>
-													<td>1000</td>
-													<td>2000</td>
-													<td>3000</td>
-													<td>4000</td>
-													<td>5000</td>
-												</tr>
-												<tr>
-													<td>平方公尺</td>
-													<td>m<sup>2</sup></td>
-													<td>92.90304</td>
-													<td>185.80453</td>
-													<td>278.70680</td>
-													<td>371.60907</td>
-													<td>464.51133</td>
-												</tr>
-												<tr>
-													<td>坪</td>
-													<td>Ping</td>
-													<td>28.10317</td>
-													<td>56.20587</td>
-													<td>84.30881</td>
-													<td>112.41174</td>
-													<td>140.51468</td>
-												</tr>
-												<tr>
-													<td>英畝</td>
-													<td>acre</td>
-													<td>0.02323</td>
-													<td>0.04645</td>
-													<td>0.06968</td>
-													<td>0.09290</td>
-													<td>0.11613</td>
-												</tr>
-											</table>
-										
+										<table width="95%">
+											<tr>
+												<td>平方英尺</td>
+												<td>ft<sup>2</sup> </td>
+												<td>1000</td>
+												<td>2000</td>
+												<td>3000</td>
+												<td>4000</td>
+												<td>5000</td>
+											</tr>
+											<tr>
+												<td>平方公尺</td>
+												<td>m<sup>2</sup></td>
+												<td>92.90304</td>
+												<td>185.80453</td>
+												<td>278.70680</td>
+												<td>371.60907</td>
+												<td>464.51133</td>
+											</tr>
+											<tr>
+												<td>坪</td>
+												<td>Ping</td>
+												<td>28.10317</td>
+												<td>56.20587</td>
+												<td>84.30881</td>
+												<td>112.41174</td>
+												<td>140.51468</td>
+											</tr>
+											<tr>
+												<td>英畝</td>
+												<td>acre</td>
+												<td>0.02323</td>
+												<td>0.04645</td>
+												<td>0.06968</td>
+												<td>0.09290</td>
+												<td>0.11613</td>
+											</tr>
+										</table>
+
 									</section>
 								</div>
 							</div>
@@ -369,7 +377,7 @@
 						</article>
 					</div>
 					<div class="tab-pane" id="Menu-B5" role="tabpanel">
-						<!-- Menu B4 -->
+						<!-- Menu B5 -->
 						<h3>購屋流程</h3>
 						<div class="row">
 							<div class="col-md-4">
@@ -378,27 +386,34 @@
 							<div class="col-md-8">
 								<h5>參考資料</h5>
 								<ul>
-									<li> 
-										每日頭條 2019/11/30 
+									<li>
+										每日頭條 2019/11/30
 										<a href="https://kknews.cc/zh-tw/house/y5j8lbk.html">加拿大買房最全攻略</a>
 									</li>
 								</ul>
 								<section>
 									<h5>財務準備流程</h5>
 									<ul>
-										<li>获得您的信用评分: 
+										<li>获得您的信用评分:
 											<ul>
-												<li>信用分数只能从<a href="https://www.consumer.equifax.ca/">Equifax</a>（不是任何一家银行）获得</li>
+												<li>信用分数只能从<a
+														href="https://www.consumer.equifax.ca/">Equifax</a>（不是任何一家银行）获得
+												</li>
 												<li>信用报告是免费的，但您必须支付$ 11.95才能获得信用分数，该分数仅在90天内有效。</li>
 												<li>通过邮件，信用评分以及信用报告需要7-10个工作日。 在线访问分数仅需10分钟，但需要用户创建一个帐户。</li>
 											</ul>
 										</li>
 										<li>準備相關資料：
 											<ul>
-												<li>1. 资产证明 - 从过去两年开始，最近的工资单显示了收入以及年初至今的收入，证明了任何额外收入（例如a养费或奖金）以及最近两年的纳税申报表。</li>
-												<li>2. 收入 - 首付: 大多数贷款要求购买者购买私人抵押保险（PMI）或支付抵押保险费或融资费用，除非他们放下购买价格的至少20％（475,000 * 0.2 = 95,000）。除了预付定金外，预批准还取决于买方的FICO信用评分，债务收入比（DTI）和其他因素，具体取决于贷款类型, TODO：降低20％以避免PMI
+												<li>1. 资产证明 -
+													从过去两年开始，最近的工资单显示了收入以及年初至今的收入，证明了任何额外收入（例如a养费或奖金）以及最近两年的纳税申报表。</li>
+												<li>2. 收入 - 首付:
+													大多数贷款要求购买者购买私人抵押保险（PMI）或支付抵押保险费或融资费用，除非他们放下购买价格的至少20％（475,000 * 0.2
+													= 95,000）。除了预付定金外，预批准还取决于买方的FICO信用评分，债务收入比（DTI）和其他因素，具体取决于贷款类型,
+													TODO：降低20％以避免PMI
 												</li>
-												<li>3. 信誉良好 - 如果FICO得分在最低（620–639）范围内的个人，向其提供25万美元的贷款，则每月需支付1,288美元，而在最高（760–850）范围内的房主，则只需支付1,064美元，每年差额为2,712美元。
+												<li>3. 信誉良好 -
+													如果FICO得分在最低（620–639）范围内的个人，向其提供25万美元的贷款，则每月需支付1,288美元，而在最高（760–850）范围内的房主，则只需支付1,064美元，每年差额为2,712美元。
 												</li>
 												<li>4. 就业证明</li>
 												<li>5. 贷款人可能需要的其他类型的文件。</li>
@@ -419,7 +434,7 @@
 														<li>这是标准抵押还是抵押抵押？</li>
 														<li>此抵押贷款有任何限制吗？</li>
 													</ul>
-											
+
 												</li>
 												<li>问抵押贷款经纪人的關鍵问题
 													<ul>
@@ -427,7 +442,8 @@
 														<li>我的抵押贷款费用是多少？</li>
 														<li>我应该使用购买积分还是进行更大的预付款？</li>
 														<li>
-															<a href="https://www.bankrate.com/mortgages/questions-to-ask-a-mortgage-broker/">银行汇率</a>
+															<a
+																href="https://www.bankrate.com/mortgages/questions-to-ask-a-mortgage-broker/">银行汇率</a>
 														</li>
 													</ul>
 
@@ -448,7 +464,7 @@
 												<li>选择经纪人
 													<ul>
 														<li>
-														<a href="http://www.oaciq.com">OACIQ | 魁北克省禁运动员自律组织</a>
+															<a href="http://www.oaciq.com">OACIQ | 魁北克省禁运动员自律组织</a>
 														</li>
 													</ul>
 
@@ -496,36 +512,43 @@
 											</ul>
 										</li>
 
-										
+
 										</li>
 									</ul>
-									
+
 								</section>
 								<section>
 									<h5>搬家到魁北克省的準備</h5>
 									<p>
-									魁北克省的<a href="https://www.ramq.gouv.qc.ca/en/citizens/health-insurance/register">健康保險註冊</a> <br>
-									当您在魁北克定居时，您有资格在定居日期后第3个月的第1天获得健康保险。 在您有资格获得魁北克健康保险之前，您的原籍省将支付医疗费用。
+										魁北克省的<a
+											href="https://www.ramq.gouv.qc.ca/en/citizens/health-insurance/register">健康保險註冊</a>
+										<br>
+										当您在魁北克定居时，您有资格在定居日期后第3个月的第1天获得健康保险。 在您有资格获得魁北克健康保险之前，您的原籍省将支付医疗费用。
 
-									随行人员（配偶定义和家属定义）具有相同的义务，并且必须提供与您相同的文件才能注册健康保险。
+										随行人员（配偶定义和家属定义）具有相同的义务，并且必须提供与您相同的文件才能注册健康保险。
 									</p>
 									<p>
-									魁北克省的 <a href="https://saaq.gouv.qc.ca/en/drivers-licences/obtaining-licence/">駕照申請</a> <br>
-									在魁北克省，您不必通过熟练程度考试即可单击上面網站以获取更多信息以获得驾驶执照。<br>
-									
-									駕照申請步驟：
+										魁北克省的 <a
+											href="https://saaq.gouv.qc.ca/en/drivers-licences/obtaining-licence/">駕照申請</a>
+										<br>
+										在魁北克省，您不必通过熟练程度考试即可单击上面網站以获取更多信息以获得驾驶执照。<br>
+
+										駕照申請步驟：
 									<ul>
 										<li>
-										步骤1 – 符合以下条件
+											步骤1 – 符合以下条件
 											<ul>
 												<li>年满16岁（或14岁以下的小型摩托车，汽缸容量为50cc或以下，6D级）</li>
-												<li>持有与<a href="https://saaq.gouv.qc.ca/en/drivers-licences/drivers-licence-classes/">駕照等級</a> 等效的许可证，例如授权您驾驶汽车或汽车的许可证驾驶摩托车</li>
+												<li>持有与<a
+														href="https://saaq.gouv.qc.ca/en/drivers-licences/drivers-licence-classes/">駕照等級</a>
+													等效的许可证，例如授权您驾驶汽车或汽车的许可证驾驶摩托车</li>
 												<li>成为魁北克省居民</li>
 												<li>被授权留在加拿大</li>
 											</ul>
 										</li>
 										<li>
-											步骤2 – 通过电话安排与职员的约会，职员会分析您的请求。 蒙特利尔地区：514-954-7771其他地方：（魁北克，加拿大，美国）：1-888-356-6616
+											步骤2 – 通过电话安排与职员的约会，职员会分析您的请求。
+											蒙特利尔地区：514-954-7771其他地方：（魁北克，加拿大，美国）：1-888-356-6616
 										</li>
 										<li>
 											步骤3 - 安排预约时，请索取带有原始文件的服务出口，即：
@@ -545,7 +568,66 @@
 						</div>
 
 					</div>
+					<div class="tab-pane" id="Menu-B6" role="tabpanel">
+						<!-- Menu B6 -->
+						<h3>購屋資訊</h3>
+						<div class="row">
+							<div class="col-md-6">
+								<h5>房屋市場資訊</h5>
+								<p>
+									摘錄：每日頭條 2019/04/08 <a href="https://kknews.cc/zh-tw/house/2kv4z89.html">渥太華房地產市場的走向趨勢</a> <br>
+									渥太華城市的總人口大約在132萬人左右，家庭的平均收入大約在91,780加元，易居的指數為78%。渥太華房產的出租率大約在32%左右。在渥太華進行房產購買他的房產投資空間增值空間以及租金回報率是比較高的。
+								</p>
+								<p>
+									多倫多的房產收入平均價格已經達到了50萬加元左右，而渥太華卻只在30萬加元左右。渥太華一些地區的房價要比整個地區的平均值高上10萬加元。在渥太華購買一棟獨戶，你只需要花費373,200刀，渥太華比較繁華的西部中心地區的獨戶標準價格在433,000600加元左右。當然還有其他地區的房產平均價格大約在583,000加元左右，在5年時間裡面，渥太華的房地產市場價格平均只上漲了9.5%左右。
+								</p>
+
+								<h5>渥太華 2020 房市預測 </h5>
+								<p>
+									摘錄：搜狐 2019/12/14 <a href="https://www.sohu.com/a/360335030_170002">渥太华房价突破50万大关！2020房市预测</a>
+									根据渥太华2019 11月的房市数据以及2020年的预测数据显示，渥太华的平均房价将会在明年正式步入50万的价格。 价格方面，2019 11月份渥太华家庭住宅的平均售价又一次出现5字头的数字。家庭住宅均价为$501,201，比去年同期增长了16.9%，相比今年1月就增长了8.9%。
+								</p>
+								<p>
+									38.8%的家庭住宅房，都在$350,000到$499,999的价格区间内出售，还有32%的房子在$500,000到$749,999区间内出售。这个比例越来越平均，表示渥太华50万以上出售的房子越来越多。 
+									公寓方面11月的均价是$313,734，比去年同期上涨了9.8%，相比今年1月上涨了9.1%。其中市中心的公寓均价大约在$414.500左右。
+								</p>
+								<p>
+									不过根据地区的不同，渥太华的房价涨幅也有不同，目前增幅最大的就是country Place,Pineglen,Crestview区域，高达31.5%！
+								</p>
+								<img src="fig/SLO-3122-渥大華房市.png" class="img-fluid" style="width:600px">
+								<img src="fig/SLO-3122-渥大華房市-2.png" class="img-fluid" style="width:600px">
+							</div>
+							<div class="col-md-6">
+								<h5>疫情中，渥太華房市</h5>
+								<p>
+									摘錄：大紀元 2020/06/18 <a href="https://www.epochtimes.com/b5/20/6/18/n12195426.htm">未受疫情影響 渥太華房市火爆</a>
+									據《環球郵報》報導，渥太華地產局（OREB）數據顯示，5月份渥市平均房價同比漲11.2%，其中，共管公寓價格同比漲15.5%。年初至今該市獨立屋和公寓平均房價分別漲13.8%和17.8%。地產投資網REIN疫期地產專門報告顯示，疫情爆發後，卑詩、亞省和安省所有大城市行情持續下滑，唯獨渥太華例外。專家認為，渥市行情穩定，和當地經濟有關。渥市就業市場主要是政府、科技、醫療和教育等部門和行業，受疫情衝擊較小。
+
+								</p>
+								<p>
+									加拿大統計局數據顯示，渥太華-加蒂諾上月失業率從年初不到5%升至近7%，失業率居全國幾個主要大城市倒數第3低。 渥太華地產局總裁伯哥尼（Deb Burgoyne）女士表示，前不久加拿大房貸與住房公司（CMHC）預測房價要跌，是個全國統一預測數據，不能反應渥太華市場行情。現在渥市房子非常好賣，90%以上的房子都收到多個買家下單並高於掛牌價成交。
+								</p>
+
+								<h5>渥太華房屋市場預估</h5>
+								<p>
+									摘錄：大紀元 2019/05/24 <a href="https://www.epochtimes.com/b5/19/5/23/n11275794.htm">渥太華房市興旺</a>
+									2018年初按揭壓力測試實施後，加國平均房價一路下跌，但首都渥太華房市一片大好，火爆程度是過去近10年來首次，房價一路飆漲，搶房現象日益普遍。 但自2017年以來，市場開始起飛。2018年9月，科查與合伙人推出的一個鎮屋新盤，所有單元在發售首日售馨。目前，他手頭有6個新盤在建，還有幾個也快要推出，就是為了緊緊抓住當前大好時機。
+								</p>
+								<p>
+									多重掛牌系統（MLS）房價指數顯示，今年3月份全國房價同比跌0.5%，全國幾個大城市中，渥太華房價漲幅最快，當月基準房價破40.55萬元，同比漲7.6%，高出同樣火爆的蒙特利爾當月6.3%的同比漲幅。最近渥太華洪澇災情對部分社區房屋銷量有所影響，但上月低層住宅價格同比仍漲7.4%，共管公寓價格同比漲14.3%。
+								</p>
+								<p>
+									中國大陸海外房產網居外網（Juwai.com）去年提醒客戶投資多溫兩地房產要謹慎。同期，該網上渥太華房產搜索量飆升33%。多倫多Harbour Equity Capital投資公司投資人西爾弗伯格（Ari Silverberg）認為，目前渥太華房市前景全國最好，房價上漲關鍵支撐要素強勁，如就業和人口增長迅速，買房擔負力輕鬆，今後他會加大當地地產投資。 西爾弗伯格稱，2012～2016年期間，渥太華和蒙特利爾房市增長緩慢，其它城市一片火爆，現在整個反過來了，去年渥蒙兩地房市增長表現超常。
+								</p>
+							</div>
+						</div>
+
+
+					</div>
+					<!-- Insert more page here -->
+
 				</div>
+
 
 			</div>
 		</div>
