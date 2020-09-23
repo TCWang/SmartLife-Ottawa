@@ -4,6 +4,7 @@
 		"area": "Gatineau",
 		"category": "Gatineau-House",
 		"mls": "15200695",
+		"sold": "Sold",
 		"price": "$399,900",
 		"address": "224 Rue de la Sève Gatineau, Quebec J8V0K4",
 		"bedrooms": "3",
@@ -121,6 +122,19 @@
 		"website": "https://www.point2homes.com/CA/Condo-For-Sale/QC/Gatineau/Wychwood/134-Ch-Fraser/95158946.html"
 	},
 	{
-		"figure": ", "
+		"no": "10008",
+		"area": "Aylmer",
+		"category": "Gatineau-Condo",
+		"mls": "928035",
+		"price": "$279,900",
+		"address": "4-300 boulevard d'Europe Gatineau, Quebec",
+		"bedrooms": "2",
+		"bathrooms": "1",
+		"type": "Condo",
+		"storeys": "1",
+		"size": "1212.00 ",
+		"buildin": "2009",
+		"figure": "fig/SLO-3111-Aylmer-08.jpg",
+		"website": "https://neuves.duproprio.com/en/outaouais/gatineau-aylmer/condo-for-sale/hab-4-300-boulevard-deurope-928035#description"
 	}
 ]
