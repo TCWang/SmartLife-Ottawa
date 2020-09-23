@@ -45,6 +45,12 @@ section .img-fluid {
     padding: 0;
     margin: 0 0 20px 0;
 }
+#Menu-B2 .row.mb-1 .table.table-striped.table-sm.table-hover {
+}
+#Menu-B3 section #quote {
+    margin-left: 10px;
+    padding-left: 10px;
+}
 
 @media (max-width:543px) {
     h1, h2 {
