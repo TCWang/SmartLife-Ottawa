@@ -51,6 +51,8 @@ section .img-fluid {
     margin-left: 10px;
     padding-left: 10px;
 }
+#FluidR {
+}
 
 @media (max-width:543px) {
     h1, h2 {
