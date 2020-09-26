@@ -11,8 +11,14 @@ body {
 #app footer {
 }
 article {
-    padding: 0 5px 2px 5px;
-    margin: 0 5px 2px 5px;
+    padding-top: 0;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    margin-top: 0;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
 }
 #main_heading {
     padding-top: 0;
