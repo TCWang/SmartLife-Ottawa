@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en"><!-- InstanceBegin template="/Templates/SLO-01-Template02.dwt" codeOutsideHTMLIsLocked="false" -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Bootstrap 4 CSS 的 CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- Fontawesom 的 CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <!-- Google Icons CDN  -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  <!-- My CSS file -->
+  <link rel="stylesheet" href="css/mycss.css">
+  <!-- InstanceBeginEditable name="doctitle" -->
+  <title>加拿大首都區-地區資訊</title>
+  <meta name="description" content="AiCity Community WebSite 2019">
+  <!-- InstanceEndEditable -->
+
+<!-- InstanceBeginEditable name="head" -->
+  <!-- InstanceEndEditable -->
+</head>
+
+<body>
+  <!-- Vue實例的掛載點 -->
+  <div id='app'>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <a class="navbar-brand" href="#">
+
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-user">用戶登入</i>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="SLO-110-MyInformation.html">个人资讯</a>
+              <a class="dropdown-item" href="SLO-120-SignIn.html">登入注册</a>
+              <a class="dropdown-item" href="SLO-130-Message.html">用戶留言</a>
+            </div>
+          </li>
+		  <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-info">地区资讯</i>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="SLO-210-Location.html">地理位置</a>
+              <a class="dropdown-item" href="SLO-220-AreaInformation.html">地区资讯</a>
+              <a class="dropdown-item" href="SLO-230-Transportation.html">交通资讯</a>
+              <a class="dropdown-item" href="SLO-240-Language.html">法语学习</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-shopping-cart">生活采购</i>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+			  <a class="dropdown-item" href="SLO-310-HouseBuyingRenting.html">购屋租屋</a>
+              <a class="dropdown-item" href="SLO-320-HomeLife.html">居家生活</a>
+              <a class="dropdown-item" href="SLO-330-ElectronicProduct.html">电子产品</a>
+              <a class="dropdown-item" href="SLO-340-InternetCommunication.html">网路通讯</a>
+            </div
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-utensils">美食飨宴</i>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="SLO-410-Cookware.html">料理设备</a>
+              <a class="dropdown-item" href="SLO-420-Restaurant.html">特色餐厅</a>
+              <a class="dropdown-item" href="SLO-430-Recipe.html">食谱厨艺</a>
+              <a class="dropdown-item" href="SLO-440-Coffee.html">咖啡冲泡</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-running">健康娱乐</i>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="SLO-510-Travel.html">旅游休闲</a>
+              <a class="dropdown-item" href="SLO-520-Hiking.html">登山步道</a>
+              <a class="dropdown-item" href="SLO-530-Hospital.html">医疗保健</a>
+              <a class="dropdown-item" href="SLO-540-Entertainment.html">娱乐嗜好</a>
+            </div>
+          </li>
+		  <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-money-check-alt">投资理财</i>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="SLO-610-Investment.html">投資資訊</a>
+              <a class="dropdown-item" href="SLO-620-Retirement.html">退休理財</a>
+              <a class="dropdown-item" href="SLO-630-Stock.html">股票资讯</a>
+              <a class="dropdown-item" href="SLO-640-Fund.html">基金资讯</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+    <!-- Jumbotron-->
+
+    <!-- InstanceBeginEditable name="jumbotron description " -->
+    <div class="jumbotron jumbotron-fluid jumbotron-bg2 d-flex align-items-end">
+      <div class="container">
+        <div class="bg-lighter p-1" style="width:300px">
+          <h4 class="text-white">渥太華 Ottawa ＆ 加蒂諾 Gatineau</h4>
+          <p class="lead text-white">加拿大聯邦首府地區</p>
+        </div>
+      </div>
+    </div>
+    <!-- InstanceEndEditable --> </div>
+
+
+	<!-- Web Page Title -->
+	<!-- InstanceBeginEditable name="main_heading" -->
+  <div class="container-fluid">
+    <h1>渥太華 Ottawa vs 加蒂諾 Gatineau</h1>
+    <div class="row">
+
+      <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+        <aside class="sidebar1">
+            <h2>相關資訊</h2>
+            <p>
+ 				<ul>
+			  		<li>
+						Reddit / <a href="https://www.reddit.com/r/Gatineau/wiki/faq-en/gatineau-vs-ottawa">Gatineau</a>: Is living in Gatineau cheaper than Ottawa?
+					</li>
+			  	</ul>
+            </p>
+        </aside>
+      </div>
+      <div class="col-12 col-sm-8 col-md-9 col-lg-10">
+      	<article>
+			<section>
+				<h3>在加蒂诺Gatineau 生活比在渥太华Ottawa 便宜吗？</h3>
+				<p>
+					也许。 这取决于许多因素，例如您的收入或您是否有孩子。 此页面按类别将其细分。 您将需要针对特定情况计算成本，但是此页面可以帮助您大致了解。 请注意，这些数据基于撰写本文时（2020年秋季）的最新数据。
+					<br>
+					在此比较中，我们没有考虑通勤时间，物业规模，政治，医疗保健，基础设施，法语，文化差异和其他主观因素。 您将必须根据自己的信念权衡这些因素，然后得出自己的结论。 此页面纯粹是关于两个城市的生活费用差异。
+					<br>
+					TL; DR：在大多数情况下，在加蒂诺生活比较便宜，特别是对于有小孩的家庭。 如果您是单身人士或夫妇，租房的收入要达到六位数，那么住在渥太华可能是您的最佳选择。
+				</p>
+			</section>
+			<section>
+				<h3>稅賦 - 所得税</h3>
+			  <p>
+					为了进行此计算，我们将使用2016年人口普查收集的NCR的家庭收入中位数，其中单人家庭为$ 44,189，普通家庭为$ 82,053，两人以上家庭为$ 102,423。 我们很乐意使用SimpleTax的免费在线税收计算器。
+				  	<br>
+				  	加蒂诺（Gatineau）是该类别的优胜。
+				</p>
+				<table >
+					<tr>
+						<th>Gross Income</th>
+						<th>Net(Quebec)</th>
+						<th>Net(Ontario)</th>
+						<th>Difference</th>
+					</tr>
+					<tr>
+						<td>$44.189</td>
+						<td>$33,503</td>
+						<td>$35.329</td>
+						<td>$1,826</td>
+					</tr>
+					<tr>
+						<td>$82,053</td>
+						<td>$56,576</td>
+						<td>$61,188</td>
+						<td>$4,612</td>
+					</tr>
+					<tr>
+						<td>$102,423</td>
+						<td>$68,619</td>
+						<td>$74,423</td>
+						<td>$5,804</td>
+					</tr>
+				</table>
+				<p3>稅賦 - 物业税</p3>
+				<p>
+					为了进行比较，我们将使用2020年的房价和价值300,000美元的物业，提供全方位的服务（运输，垃圾处理等）。
+			  <ul>
+						<li>渥太华：$ 3,540.00</li>
+						<li>加蒂诺：$ 3,640.00（请参阅下面的注释）</li>
+			  </ul>
+
+					土地转让税（或魁北克的欢迎税）几乎相同，但是安大略省为首次购房者提供了折扣。 在渥太华购买价值$ 300,000的房产，您需要支付$ 2,975。 在加蒂诺，您需要支付$ 2,989。
+					<br>
+					注意：渥太华在这一类别中可能显得稍稍领先，但加蒂诺（Gatineau）包括无限量的水作为财产税的一部分。 考虑到渥太华每年的水费估计为480美元，这使加蒂诺领先380美元。
+					<br>
+					加蒂诺（Gatineau）是该类别的优胜。
+				</p>
+			</section>
+			<section>
+		  		<h3>居住租金 - 公寓式</h3>
+				<p>
+					为了进行比较，我们将使用基于CMHC收集的数据（2019年统计）的平均租金。
+					<br>
+					加蒂诺（Gatineau）是该类别的优胜。
+				<table >
+					<tr>
+						<th>型式</th>
+						<th>Gatineau</th>
+						<th>Ottawa</th>
+						<th>差異</th>
+					</tr>
+					<tr>
+						<td>單人</td>
+						<td>$623</td>
+						<td>$933</td>
+						<td>$310</td>
+					</tr>
+					<tr>
+						<td>1臥室</td>
+						<td>$750</td>
+						<td>$1,178</td>
+						<td>$428</td>
+					</tr>
+					<tr>
+						<td>2臥室</td>
+						<td>$874</td>
+						<td>$1,410</td>
+						<td>$536</td>
+					</tr>
+				</table>
+				</p>
+		  		<h3>居住 - 購房</h3>
+		  		<p>
+		  			根据CREA的数据，2020年渥太华房屋的平均售价为517,800加元。 2020年加蒂诺的房屋平均销售价格为333,878美元。
+					差额为183,922美元，相当于每月按揭供款约870美元。
+					<br>
+					此处不考虑升值，因为本文旨在比较成本，而不是潜在收入。我们也找不到专门在加蒂诺（Gatineau）的历史房价来源，也没有水晶球可以展望未来，但是由于我们处于主题地位，我们将使用可提供的数据您是一个大致的想法。如果我们使用CREA的HPI工具回顾15年，渥太华的房屋价值增加了 123.4％，魁北克的房屋整体价值增加了 86％。这意味着，在渥太华，2005年购买的200,000美元的房屋今天在魁北克的价值约为446,800美元，在魁北克某处的价值约为360,000美元，在15年中相差86,800美元，或在魁北克购买而造成的平均每年损失价值5,786美元。话虽如此，升值的不足可能可以通过重新利用每月节省的费用（从在加蒂诺购买一间等价的，较便宜的房屋）到更快地偿还抵押贷款以及投资于自己和您的未来来弥补。在最初的5年中，将近50％的抵押贷款仅用于支付利息。您需要自己算一下，看看这是否适合您的情况。
+					<br>
+					加蒂诺（Gatineau）是该类别的优胜。
+		  		</p>
+		  		<h3>基本開銷 - 水电</h3>
+		  		<p>
+		  			魁北克的电费是北美最低的，这已经不是什么秘密了。 不仅如此，而且其中99％以上是由风和水产生的，使其成为世界上最清洁的能源。
+					<br>
+					魁北克省当前的2020年住宅费率为：$ 0.4064 /日的运费, 前40 kWh /天$ 0.0608 / kWh, 每天消耗的剩余能量$ 0.0938 / kWh
+					<br>
+					渥太华水电局目前的2020住宅价格为：$ 28.64 /月运费, $ 0.0128 / kWh的传输费用, $ 0.128 /千瓦时, 及其他各种费用
+					<br>
+					
+					每月使用1,000千瓦时的家庭在加蒂诺（Cantineau）每月需支付约72.99美元（税前），在渥太华每月需支付169.44美元（税前）。
+
+		  		</p>
+		  		<h3>基本開銷 - 水</h3>
+		  		<p>
+					渥太华的家庭有水表，并且要按用水量计费。 根据Reddit帖子中的评论，典型的双月水费约为80美元。 加蒂诺（Gatineau）的土地税中包括无限量用水。
+					<br>
+					加蒂诺（Gatineau）是该类别的优胜。
+		  		</p>
+		  	</section>
+	  		<section>
+				<h3>汽車費用</h3>
+				<p>
+					保险 - 
+					
+					魁北克的保险费率是该国最低的，这已经不是什么秘密了。根据该消息来源，安大略省一辆汽车的平均年保费为1,528加元。魁北克的平均房价不到$ 717的一半。
+					<br>
+					注册和许可费 - 
+
+					魁北克牌照需要每年续签费用，而安大略省牌照仅每5年收取一次续签费用。魁北克省为$ 86.34，安大略省为$ 90.00（或每年$ 18，在此页面中用于计算）。魁北克省的汽车注册价格为272.57加元，而安大略省为152加元。
+					<br>
+					汽油和电动汽车充电 - 
+
+					天然气价格变化很大。有时它们在加蒂诺（Gatineau）较贵，有时在渥太华（Ottawa）较贵。无论哪种方式，您都可以在河的两边加满水，因此不需要进行比较。
+					<br>
+					在魁北克，水电价格非常便宜，这使拥有电动汽车更具吸引力。目前，您还可以获得高达8,000加元的返利，用于购买电动汽车，安大略省不再提供这种方式。
+					<br>
+					结论 - 
+
+					加上保险和费用，在渥太华拥有一辆汽车大约要花费1,698美元。在加蒂诺，这将花费大约1,076美元。
+
+					注意：在魁北克，大型车辆的注册费较高，而摩托车的注册费较低。为了进行比较，我们认为这两个事实相互抵消。
+
+					加蒂诺（Gatineau）是该类别的优胜。
+				</p>
+				<h3>公共交通</h3>
+				<p>
+					我们只会比较成人月票的费用。请记住，月票可以在OC Transpo或STO上使用。
+					<br>
+					STO（Gatineau）：每月$ 99（或年费$ 89.10）<br>
+					OC Transpo（渥太华）：$ 119.50 /月
+				</p>
+	  		</section>
+	  		<section>
+	  			<h3>幼兒照顧 - 日托</h3>
+				<p>
+					在这里它可能成功或为您破坏。 魁北克所得税较高的原因之一是由于补贴了日托。 根据CCPA的这份2019年报告，以下是这两个城市的幼儿的中位数托儿费用：
+					<br>
+					加蒂诺：$ 179 /月
+					渥太华：每月$ 1,040
+					<br>
+					注意：可能很难找到有补贴的日托地点，但是魁北克省将退还您相当一部分私人日托费用，该费用将根据您的收入而定，并以税收抵免的形式支付。 您可以在此处找到有关此内容的详细信息。
+				</p>
+	  		</section>
+      	</article>
+      </div>
+
+    </div>
+  </div>
+  <!-- InstanceEndEditable -->
+	
+	<footer id="main_footer">
+		<p>
+				Update footer here  &copy; TCW Smart Lift
+		</p>
+
+	</footer>
+	
+	<!-- Vue 的 CDN -->
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+
+    <!-- Bootstrap 4 JavaScript 的 CDN -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"></script>
+    <!-- Axios 的 CDN -->
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- InstanceBeginEditable name="Vue Prorgram" -->
+  <div>
+    <!-- Vue實例的程式碼 -->
+  </div>
+  <!-- InstanceEndEditable -->
+</body>
+
+<!-- InstanceEnd --></html>
