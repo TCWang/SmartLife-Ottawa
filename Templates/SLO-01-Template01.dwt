@@ -60,7 +60,7 @@
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="../SLO-210-Location.html">地理位置</a>
-              <a class="dropdown-item" href="../SLO-220-AreaInformation.html">地区资讯</a>
+              <a class="dropdown-item" href="../SLO-220-AreaInformation.html">地区比較</a>
               <a class="dropdown-item" href="../SLO-230-Transportation.html">交通资讯</a>
               <a class="dropdown-item" href="../SLO-240-Language.html">法语学习</a>
             </div>
